@@ -1,0 +1,26 @@
+{
+    "account_name": "",
+    "steem_node": "https://rpc.buildteam.io",
+    "private_posting_key": "",
+    "private_active_key": "",
+    "accepted_currencies": [
+        "SBD", "STEEM"
+    ],
+    "min_bid": "0.01",
+    "max_bid": "1.00",
+    "max_post_age": 144,
+    "memo_messages": {
+        "invalid_bid": "{sender}, your bid of {bid} is invalid!",
+        "invalid_currency": "{sender}, your bid of {bid} is an invalid currency!",
+        "post_to_old": "{sender}, your post is too old for upvoting it!",
+        "invalid_memo": "{sender}, the memo you sended is invalid!",
+        "already_voted": "Sorry {sender}, we already voted on this post!",
+        "no_comments": "Upvoting comments is not allowed, sorry for your inconvenience",
+        "voting_failed": "Voting failed {sender}, refunding your bid of {bid}"
+    },
+    "comments": [
+        "Hi! I've just found you and this is crazy, but here's my vote so follow me maybe?",
+        "You got an upvote from UpVote making your revenue going up!",
+        "Voted for you my fellow steemian! Thanks for paying"
+    ]
+}
